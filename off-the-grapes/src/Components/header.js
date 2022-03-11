@@ -1,22 +1,23 @@
 import React from "react";
+import igLogo from "../Images/instagram.png";
 
 const Header = () => {
   return (
-    <header>
+    <div className="header">
       <div className="title">
-        <span> OffTheGrapes </span>
+        <span> offthegrapes </span>
       </div>
       <div className="instagram">
         <a href="https://www.instagram.com/offthegrapes/">
           <img
-            src="https://i.imgur.com/nHGbiLJ.png"
+            src={igLogo}
             alt="sharing good wine"
             width="25"
             height="25"
           ></img>
         </a>
       </div>
-    </header>
+    </div>
   );
 };
 

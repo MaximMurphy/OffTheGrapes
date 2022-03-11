@@ -24,8 +24,8 @@ const App = () => {
     //can change the starting position here
     x = 500;
     y = 500;
-    xSpeed = 4;
-    ySpeed = 4;
+    xSpeed = 2;
+    ySpeed = 2;
   };
 
   let windowResized = (p5) => {
@@ -33,7 +33,7 @@ const App = () => {
   };
 
   let draw = (p5) => {
-    p5.background(225);
+    p5.background(300);
     p5.image(img, x, y);
     x = x + xSpeed;
     y = y + ySpeed;
@@ -56,6 +56,9 @@ const App = () => {
         windowResized={windowResized}
         draw={draw}
       />
+      <div>
+        <p>Hey</p>
+      </div>
     </div>
   );
 };
