@@ -4,19 +4,30 @@ import Sketch from "react-p5";
 const BouncingLogo = () => {
   let canvas;
   let img;
+  let link;
   let x, y;
   let xSpeed;
   let ySpeed;
 
+  /*
   let preload = (p5) => {
     img = p5.loadImage("https://i.imgur.com/5495IUB.png");
   };
+*/
 
   let setup = (p5, canvasParentRef) => {
     canvas = p5
       .createCanvas(p5.windowWidth, p5.windowHeight)
       .parent(canvasParentRef);
     canvas.style("display", "block");
+
+    link = p5.createA("https://lawbirdsupplyhouse.com/", "");
+    img = p5
+      .createImg(
+        "https://i.imgur.com/5495IUB.png",
+        "https://lawbirdsupplyhouse.com/"
+      )
+      .parent(link);
 
     //can change the starting position here
     x = 1000;
@@ -31,7 +42,8 @@ const BouncingLogo = () => {
 
   let draw = (p5) => {
     p5.background(300);
-    p5.image(img, x, y);
+    //p5.image(img, x, y);
+    img.position(x, y);
     x = x + xSpeed;
     y = y + ySpeed;
 
@@ -46,12 +58,7 @@ const BouncingLogo = () => {
 
   return (
     <div className="App">
-      <Sketch
-        preload={preload}
-        setup={setup}
-        windowResized={windowResized}
-        draw={draw}
-      />
+      <Sketch setup={setup} windowResized={windowResized} draw={draw} />
     </div>
   );
 };
