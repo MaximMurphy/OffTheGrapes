@@ -12,7 +12,10 @@ const WinePage = () => {
       <h2>{wine.producer}</h2>
       <p>{wine.type}</p>
       <img src={wine.flag} alt=" " width="20" height="20"></img>
-      <p className="review">{wine.review}</p>
+      <p className="review">
+        {wine.review}
+        {wine.score}
+      </p>
     </div>
   );
 };

@@ -14,7 +14,7 @@ const mexicoImage = "https://i.imgur.com/pKmA7A2.png";
 const wines = [
   {
     _id: 0,
-    producer: "Biokult",
+    producer: "Biokult ",
     name: "Naken",
     type: "Sparkling ",
     country: "Austria ",
@@ -25,7 +25,7 @@ const wines = [
   },
   {
     _id: 1,
-    producer: "Domaine La Bohème",
+    producer: "Domaine La Bohème ",
     name: "Festejar!",
     type: "Sparkling",
     country: "France ",
@@ -36,7 +36,7 @@ const wines = [
   },
   {
     _id: 2,
-    producer: "Demarie",
+    producer: "Demarie ",
     name: "Luigi",
     type: "Pét-Nat ",
     country: "Italy ",
@@ -47,7 +47,7 @@ const wines = [
   },
   {
     _id: 3,
-    producer: "Podere Pradarolo",
+    producer: "Podere Pradarolo ",
     name: "Vej",
     type: "Orange ",
     country: "Italy ",
@@ -58,7 +58,7 @@ const wines = [
   },
   {
     _id: 4,
-    producer: "Quo",
+    producer: "Quo ",
     name: "Gastiago Garnacha",
     type: "Red ",
     country: "Spain",
@@ -69,7 +69,7 @@ const wines = [
   },
   {
     _id: 5,
-    producer: "Gönc",
+    producer: "Gönc ",
     name: "Canvas Pét-Nat",
     type: "Pét-Nat ",
     country: "Slovenia",
@@ -79,7 +79,7 @@ const wines = [
   },
   {
     _id: 6,
-    producer: "Gönc",
+    producer: "Gönc ",
     name: "Canvas Rose Pét-Nat",
     type: "Pét-Nat ",
     country: "Slovenia",
@@ -89,7 +89,7 @@ const wines = [
   },
   {
     _id: 7,
-    producer: "Gönc",
+    producer: "Gönc ",
     name: "Yellow Muscat",
     type: "White ",
     country: "Slovenia",
@@ -100,7 +100,7 @@ const wines = [
   },
   {
     _id: 8,
-    producer: "Partida Creus",
+    producer: "Partida Creus ",
     name: "Xarel-Lo",
     type: "White ",
     country: "Spain",
@@ -111,7 +111,7 @@ const wines = [
   },
   {
     _id: 9,
-    producer: "Partida Creus",
+    producer: "Partida Creus ",
     name: "Ancestral Xarel-Lo",
     type: "Sparkling ",
     country: "Spain",
@@ -122,7 +122,7 @@ const wines = [
   },
   {
     _id: 10,
-    producer: "Partida Creus",
+    producer: "Partida Creus ",
     name: "Vinel-Lo",
     type: "Orange ",
     country: "Spain",
@@ -133,7 +133,7 @@ const wines = [
   },
   {
     _id: 11,
-    producer: "Can Sumoi",
+    producer: "Can Sumoi ",
     name: "Ancestral Sumoll",
     type: "Sparkling ",
     country: "Spain",
@@ -144,7 +144,7 @@ const wines = [
   },
   {
     _id: 12,
-    producer: "Old Westminster",
+    producer: "Old Westminster ",
     name: "Take it Easy",
     type: "Rosé ",
     country: "USA",
@@ -155,7 +155,7 @@ const wines = [
   },
   {
     _id: 13,
-    producer: "Old Westminster",
+    producer: "Old Westminster ",
     name: "Blinded by the Light",
     type: "White ",
     country: "USA",
@@ -166,7 +166,7 @@ const wines = [
   },
   {
     _id: 14,
-    producer: "Weingut Carl Ehrhard",
+    producer: "Weingut Carl Ehrhard ",
     name: "Frau Ehrhard Natürlich",
     type: "White ",
     country: "Germany",
@@ -177,7 +177,7 @@ const wines = [
   },
   {
     _id: 15,
-    producer: "Field Recordings",
+    producer: "Field Recordings ",
     name: "Fiction Red",
     type: "Red ",
     country: "USA",
@@ -188,7 +188,7 @@ const wines = [
   },
   {
     _id: 16,
-    producer: "Il Farneto",
+    producer: "Il Farneto ",
     name: "God Save the Wine",
     type: "Sparkling ",
     country: "italy",
@@ -199,7 +199,7 @@ const wines = [
   },
   {
     _id: 17,
-    producer: "Demarie",
+    producer: "Demarie ",
     name: "Sabbia",
     type: "Orange ",
     country: "Italy",
@@ -210,7 +210,7 @@ const wines = [
   },
   {
     _id: 18,
-    producer: "Cantina Giardino",
+    producer: "Cantina Giardino ",
     name: "Na Bianco",
     type: "Orange",
     country: "Italy",
@@ -221,7 +221,7 @@ const wines = [
   },
   {
     _id: 19,
-    producer: "Subject to Change",
+    producer: "Subject to Change ",
     name: "Sleepless Nights",
     type: "Red",
     country: "USA",
@@ -232,7 +232,7 @@ const wines = [
   },
   {
     _id: 20,
-    producer: "Subject to Change",
+    producer: "Subject to Change ",
     name: "Wild Child",
     type: "Red",
     country: "USA",
@@ -243,7 +243,7 @@ const wines = [
   },
   {
     _id: 21,
-    producer: "Martha Stoumen",
+    producer: "Martha Stoumen ",
     name: "Post Flirtation Red",
     type: "Red",
     country: "USA",
@@ -254,7 +254,7 @@ const wines = [
   },
   {
     _id: 22,
-    producer: "Subject to Change",
+    producer: "Subject to Change ",
     name: "Unsung Hero",
     type: "Orange",
     country: "USA",
@@ -265,7 +265,7 @@ const wines = [
   },
   {
     _id: 23,
-    producer: "Franchere",
+    producer: "Franchere ",
     name: "For Heaven’s Sake, Don’t Move Here",
     type: "Orange",
     country: "USA",
@@ -276,7 +276,7 @@ const wines = [
   },
   {
     _id: 24,
-    producer: "Podere Pradarolo",
+    producer: "Podere Pradarolo ",
     name: "Ex Alba Bianco Macerato",
     type: "Orange",
     country: "Italy",
@@ -287,7 +287,7 @@ const wines = [
   },
   {
     _id: 25,
-    producer: "Tenuta S. Lucia",
+    producer: "Tenuta S. Lucia ",
     name: "Orange Crest",
     type: "Sparkling",
     country: "Italy",
@@ -298,7 +298,7 @@ const wines = [
   },
   {
     _id: 26,
-    producer: "Clos Lentiscus",
+    producer: "Clos Lentiscus ",
     name: "Litrona Sumoll",
     type: "Red",
     country: "Spain",
@@ -309,7 +309,7 @@ const wines = [
   },
   {
     _id: 27,
-    producer: "Albamar",
+    producer: "Albamar ",
     name: "Litrona Albariño",
     type: "White",
     country: "Spain",
@@ -320,7 +320,7 @@ const wines = [
   },
   {
     _id: 28,
-    producer: "Partida Creus",
+    producer: "Partida Creus ",
     name: "Ull de Llebre",
     type: "Red",
     country: "Spain",
@@ -331,7 +331,7 @@ const wines = [
   },
   {
     _id: 29,
-    producer: "Oro di Diamanti",
+    producer: "Oro di Diamanti ",
     name: "Vines Sum",
     type: "Pét-Nat",
     country: "Italy",
@@ -342,7 +342,7 @@ const wines = [
   },
   {
     _id: 30,
-    producer: "Day Wines",
+    producer: "Day Wines ",
     name: "Lemonade Rosé",
     type: "Rosé",
     country: "USA",
@@ -353,7 +353,7 @@ const wines = [
   },
   {
     _id: 31,
-    producer: "Dila-O",
+    producer: "Dila-O ",
     name: "Rkatsiteli",
     type: "Orange",
     country: "Georgia",
@@ -364,7 +364,7 @@ const wines = [
   },
   {
     _id: 32,
-    producer: "Can Sumoi",
+    producer: "Can Sumoi ",
     name: "Xarel-Lo",
     type: "White",
     country: "Spain",
@@ -375,7 +375,7 @@ const wines = [
   },
   {
     _id: 33,
-    producer: "Can Sumoi",
+    producer: "Can Sumoi ",
     name: "Sumoll-Garnatxa",
     type: "Red",
     country: "Spain",
@@ -386,7 +386,7 @@ const wines = [
   },
   {
     _id: 34,
-    producer: "Can Sumoi",
+    producer: "Can Sumoi ",
     name: "La Rosa",
     type: "Rosé",
     country: "Spain",
@@ -398,7 +398,7 @@ const wines = [
   {
     _id: 35,
     producer: "Day Wines",
-    name: "Vin de Days l’Orange",
+    name: "Vin de Days l’Orange ",
     type: "Orange",
     country: "USA",
     flag: usImage,
@@ -408,7 +408,7 @@ const wines = [
   },
   {
     _id: 36,
-    producer: "Justin Dutraive",
+    producer: "Justin Dutraive ",
     name: "Pét-Nat",
     type: "Pét-Nat",
     country: "France",
@@ -419,7 +419,7 @@ const wines = [
   },
   {
     _id: 37,
-    producer: "JPassionate Via Revolucionaria",
+    producer: "JPassionate Via Revolucionaria ",
     name: "Torrontes Brutal",
     type: "Orange",
     country: "Argentina",
@@ -430,7 +430,7 @@ const wines = [
   },
   {
     _id: 38,
-    producer: "Domaine La Bohème",
+    producer: "Domaine La Bohème ",
     name: "Super B",
     type: "Red",
     country: "France",
@@ -441,7 +441,7 @@ const wines = [
   },
   {
     _id: 39,
-    producer: "Aphros",
+    producer: "Aphros ",
     name: "Phaunus Pét-Nat Rosé ",
     type: "Pét-Nat",
     country: "Portugal",
@@ -452,7 +452,7 @@ const wines = [
   },
   {
     _id: 40,
-    producer: "Aphros",
+    producer: "Aphros ",
     name: "Phaunus Pét-Nat",
     type: "Pét-Nat",
     country: "Portugal",
@@ -462,7 +462,7 @@ const wines = [
   },
   {
     _id: 41,
-    producer: "Aphros",
+    producer: "Aphros ",
     name: "Phaunus Loureiro",
     type: "Orange",
     country: "Portugal",
@@ -473,7 +473,7 @@ const wines = [
   },
   {
     _id: 42,
-    producer: "Bichi",
+    producer: "Bichi ",
     name: "La Santa",
     type: "Red",
     country: "Mexico",
@@ -484,7 +484,7 @@ const wines = [
   },
   {
     _id: 43,
-    producer: "Ktima Ligas",
+    producer: "Ktima Ligas ",
     name: "Pella Rosé",
     type: "Rosé",
     country: "Greece",

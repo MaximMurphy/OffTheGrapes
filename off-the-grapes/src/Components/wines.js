@@ -15,12 +15,14 @@ class Wines extends Component {
             .map((wine) => (
               <div class="column">
                 <Link to={`/wine/${wine._id}`} className="name-link">
-                  <h1>{wine.name}</h1>
+                  <h1>
+                    {wine.producer}
+                    {wine.name}
+                  </h1>
                 </Link>
-                <h2>{wine.producer}</h2>
-                <p>{wine.type}</p>
+                <h2>{wine.type}</h2>
+
                 <img src={wine.flag} alt=" " width="20" height="20"></img>
-                <p className="review">{wine.review}</p>
               </div>
             ))}
         </div>
