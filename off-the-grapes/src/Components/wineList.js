@@ -13,7 +13,7 @@ const mexicoImage = "https://i.imgur.com/pKmA7A2.png";
 
 const wines = [
   {
-    _id: "0",
+    _id: 0,
     producer: "Biokult",
     name: "Naken",
     type: "Sparkling ",
@@ -24,7 +24,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "1",
+    _id: 1,
     producer: "Domaine La Bohème",
     name: "Festejar!",
     type: "Sparkling",
@@ -35,7 +35,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "2",
+    _id: 2,
     producer: "Demarie",
     name: "Luigi",
     type: "Pét-Nat ",
@@ -46,7 +46,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "3",
+    _id: 3,
     producer: "Podere Pradarolo",
     name: "Vej",
     type: "Orange ",
@@ -57,7 +57,7 @@ const wines = [
     score: "5/5",
   },
   {
-    _id: "4",
+    _id: 4,
     producer: "Quo",
     name: "Gastiago Garnacha",
     type: "Red ",
@@ -68,7 +68,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "5",
+    _id: 5,
     producer: "Gönc",
     name: "Canvas Pét-Nat",
     type: "Pét-Nat ",
@@ -78,7 +78,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "6",
+    _id: 6,
     producer: "Gönc",
     name: "Canvas Rose Pét-Nat",
     type: "Pét-Nat ",
@@ -88,7 +88,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "7",
+    _id: 7,
     producer: "Gönc",
     name: "Yellow Muscat",
     type: "White ",
@@ -99,7 +99,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "8",
+    _id: 8,
     producer: "Partida Creus",
     name: "Xarel-Lo",
     type: "White ",
@@ -110,7 +110,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "9",
+    _id: 9,
     producer: "Partida Creus",
     name: "Ancestral Xarel-Lo",
     type: "Sparkling ",
@@ -121,7 +121,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "10",
+    _id: 10,
     producer: "Partida Creus",
     name: "Vinel-Lo",
     type: "Orange ",
@@ -132,7 +132,7 @@ const wines = [
     score: "5/5",
   },
   {
-    _id: "11",
+    _id: 11,
     producer: "Can Sumoi",
     name: "Ancestral Sumoll",
     type: "Sparkling ",
@@ -143,7 +143,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "12",
+    _id: 12,
     producer: "Old Westminster",
     name: "Take it Easy",
     type: "Rosé ",
@@ -154,7 +154,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "13",
+    _id: 13,
     producer: "Old Westminster",
     name: "Blinded by the Light",
     type: "White ",
@@ -165,7 +165,7 @@ const wines = [
     score: "3.5/5",
   },
   {
-    _id: "14",
+    _id: 14,
     producer: "Weingut Carl Ehrhard",
     name: "Frau Ehrhard Natürlich",
     type: "White ",
@@ -176,7 +176,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "15",
+    _id: 15,
     producer: "Field Recordings",
     name: "Fiction Red",
     type: "Red ",
@@ -187,7 +187,7 @@ const wines = [
     score: "3.5/5",
   },
   {
-    _id: "16",
+    _id: 16,
     producer: "Il Farneto",
     name: "God Save the Wine",
     type: "Sparkling ",
@@ -198,7 +198,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "17",
+    _id: 17,
     producer: "Demarie",
     name: "Sabbia",
     type: "Orange ",
@@ -209,7 +209,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "18",
+    _id: 18,
     producer: "Cantina Giardino",
     name: "Na Bianco",
     type: "Orange",
@@ -220,7 +220,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "19",
+    _id: 19,
     producer: "Subject to Change",
     name: "Sleepless Nights",
     type: "Red",
@@ -231,7 +231,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "20",
+    _id: 20,
     producer: "Subject to Change",
     name: "Wild Child",
     type: "Red",
@@ -242,7 +242,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "21",
+    _id: 21,
     producer: "Martha Stoumen",
     name: "Post Flirtation Red",
     type: "Red",
@@ -253,7 +253,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "22",
+    _id: 22,
     producer: "Subject to Change",
     name: "Unsung Hero",
     type: "Orange",
@@ -264,7 +264,7 @@ const wines = [
     score: "5/5",
   },
   {
-    _id: "23",
+    _id: 23,
     producer: "Franchere",
     name: "For Heaven’s Sake, Don’t Move Here",
     type: "Orange",
@@ -275,7 +275,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "24",
+    _id: 24,
     producer: "Podere Pradarolo",
     name: "Ex Alba Bianco Macerato",
     type: "Orange",
@@ -286,7 +286,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "25",
+    _id: 25,
     producer: "Tenuta S. Lucia",
     name: "Orange Crest",
     type: "Sparkling",
@@ -297,7 +297,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "26",
+    _id: 26,
     producer: "Clos Lentiscus",
     name: "Litrona Sumoll",
     type: "Red",
@@ -308,7 +308,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "27",
+    _id: 27,
     producer: "Albamar",
     name: "Litrona Albariño",
     type: "White",
@@ -319,7 +319,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "28",
+    _id: 28,
     producer: "Partida Creus",
     name: "Ull de Llebre",
     type: "Red",
@@ -330,7 +330,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "29",
+    _id: 29,
     producer: "Oro di Diamanti",
     name: "Vines Sum",
     type: "Pét-Nat",
@@ -341,7 +341,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "30",
+    _id: 30,
     producer: "Day Wines",
     name: "Lemonade Rosé",
     type: "Rosé",
@@ -352,7 +352,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "31",
+    _id: 31,
     producer: "Dila-O",
     name: "Rkatsiteli",
     type: "Orange",
@@ -363,7 +363,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "32",
+    _id: 32,
     producer: "Can Sumoi",
     name: "Xarel-Lo",
     type: "White",
@@ -374,7 +374,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "33",
+    _id: 33,
     producer: "Can Sumoi",
     name: "Sumoll-Garnatxa",
     type: "Red",
@@ -385,7 +385,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "34",
+    _id: 34,
     producer: "Can Sumoi",
     name: "La Rosa",
     type: "Rosé",
@@ -396,7 +396,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "35",
+    _id: 35,
     producer: "Day Wines",
     name: "Vin de Days l’Orange",
     type: "Orange",
@@ -407,7 +407,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "36",
+    _id: 36,
     producer: "Justin Dutraive",
     name: "Pét-Nat",
     type: "Pét-Nat",
@@ -418,7 +418,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "37",
+    _id: 37,
     producer: "JPassionate Via Revolucionaria",
     name: "Torrontes Brutal",
     type: "Orange",
@@ -429,7 +429,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "38",
+    _id: 38,
     producer: "Domaine La Bohème",
     name: "Super B",
     type: "Red",
@@ -440,7 +440,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "39",
+    _id: 39,
     producer: "Aphros",
     name: "Phaunus Pét-Nat Rosé ",
     type: "Pét-Nat",
@@ -451,7 +451,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "40",
+    _id: 40,
     producer: "Aphros",
     name: "Phaunus Pét-Nat",
     type: "Pét-Nat",
@@ -461,7 +461,7 @@ const wines = [
     score: "4.5/5",
   },
   {
-    _id: "41",
+    _id: 41,
     producer: "Aphros",
     name: "Phaunus Loureiro",
     type: "Orange",
@@ -472,7 +472,7 @@ const wines = [
     score: "4/5",
   },
   {
-    _id: "42",
+    _id: 42,
     producer: "Bichi",
     name: "La Santa",
     type: "Red",
@@ -483,7 +483,7 @@ const wines = [
     score: "2.5/5",
   },
   {
-    _id: "43",
+    _id: 43,
     producer: "Ktima Ligas",
     name: "Pella Rosé",
     type: "Rosé",
@@ -500,5 +500,5 @@ export function getWines() {
 }
 
 export function getWine(id) {
-  return wines.find((w) => w._id === id);
+  return wines.find((w) => w._id.toString() === id);
 }

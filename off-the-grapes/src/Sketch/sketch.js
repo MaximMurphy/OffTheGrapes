@@ -21,13 +21,8 @@ const BouncingLogo = () => {
       .parent(canvasParentRef);
     canvas.style("display", "block");
 
-    link = p5.createA("https://lawbirdsupplyhouse.com/", "");
-    img = p5
-      .createImg(
-        "https://i.imgur.com/5495IUB.png",
-        "https://lawbirdsupplyhouse.com/"
-      )
-      .parent(link);
+    link = p5.createA("/wines", "");
+    img = p5.createImg("https://i.imgur.com/5495IUB.png", "").parent(link);
 
     //can change the starting position here
     x = 1000;
@@ -48,10 +43,10 @@ const BouncingLogo = () => {
     y = y + ySpeed;
 
     //testing when walls are hit
-    if (x + img.width - 40 >= p5.windowWidth || x <= -40) {
+    if (x + img.width >= p5.windowWidth || x <= 0) {
       xSpeed = -xSpeed;
     }
-    if (y + img.height - 40 >= p5.windowHeight || y <= -40) {
+    if (y + img.height + 5 >= p5.windowHeight || y <= 45) {
       ySpeed = -ySpeed;
     }
   };

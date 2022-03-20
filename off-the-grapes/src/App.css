@@ -13,25 +13,37 @@
 }
 
 .header {
-  background: #ff0000;
+  background: #ffffff;
   font-family: "EB Garamond", serif;
-  color: #4b5a56;
   z-index: 999;
+  height: 85px;
   width: 100%;
   position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
 }
 
 .title,
 .instagram {
   position: fixed;
+  padding-bottom: 20px;
 }
 
 .title {
+  color: #4b5a56;
   font-size: 1.3rem;
   font-weight: 700;
   top: 25px;
   left: 25px;
+}
+
+.link {
+  color: #4b5a56;
+  text-decoration: none;
+}
+
+.name-link {
+  color: #000000;
+  text-decoration: none;
 }
 
 .instagram {
@@ -52,4 +64,8 @@
   flex: 33.33%;
   text-align: left;
   padding: 20px 20px 20px 20px;
+}
+
+.wineView {
+  padding-top: 70px;
 }
