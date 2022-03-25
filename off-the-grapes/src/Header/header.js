@@ -11,7 +11,7 @@ const Header = () => {
         </Link>
       </div>
       <div className="instagram">
-        <a href="https://www.instagram.com/offthegrapes/">
+        <a href="https://www.instagram.com/offthegrapes/" className="igLink">
           <img
             src={igLogo}
             alt="sharing good wine"

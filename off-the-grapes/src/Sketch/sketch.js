@@ -23,6 +23,7 @@ const BouncingLogo = () => {
 
     link = p5.createA("/wines", "");
     img = p5.createImg("https://i.imgur.com/5495IUB.png", "").parent(link);
+    link.style("cursor", "cell");
 
     //can change the starting position here
     x = 1000;

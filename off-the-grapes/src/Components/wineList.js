@@ -493,6 +493,28 @@ const wines = [
       "Much fuller than other rosés, layers of flavor ranging from raspberry to tomato to slate, spicy and floral notes, some qualities reminiscent of herbal tea, finish has a strong presence, gets better with every glass.",
     score: "4.5/5",
   },
+  {
+    _id: 44,
+    producer: "Frank Cornelissen ",
+    name: "Susucaru Rosso",
+    type: "Red",
+    country: "Italy",
+    flag: italyImage,
+    review:
+      "Red fruit, black fruit, pepper, smoke, ash, agressive leather that hasn't been broken in, wicks moisture out of your mouth. This also has a crazy nose, almost like rustic cheese.",
+    score: "4.5/5",
+  },
+  {
+    _id: 45,
+    producer: "Gaspard ",
+    name: "Sauvignon Blanc",
+    type: "White",
+    country: "France",
+    flag: franceImage,
+    review:
+      "Sooo smooth, kiwi, cantaloupe, green grapes, not too sweet, not too acidic, real good.",
+    score: "4.5/5",
+  },
 ];
 
 export function getWines() {
